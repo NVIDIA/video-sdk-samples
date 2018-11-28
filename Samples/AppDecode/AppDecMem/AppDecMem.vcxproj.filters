@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\Common\AppDecUtils.h" />
+    <ClInclude Include="..\..\NvCodec\NvDecoder\cuviddec.h">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvDecoder\nvcuvid.h">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvDecoder\NvDecoder.h">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\FFmpegDemuxer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\NvCodecUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppDecMem.cpp" />
+    <ClCompile Include="..\..\NvCodec\NvDecoder\NvDecoder.cpp">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NvCodec">
+      <UniqueIdentifier>{c7fcc157-251e-4b4a-a2c6-01d9a1c40e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NvCodec\NvDecoder">
+      <UniqueIdentifier>{46ade5c7-a37b-4a33-aa40-00ab0b2e37f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1a6ba032-a215-4ec4-bcab-37cd6d932708}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

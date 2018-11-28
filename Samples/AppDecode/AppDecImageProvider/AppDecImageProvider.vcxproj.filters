@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppDecImageProvider.cpp" />
+    <ClCompile Include="..\..\NvCodec\NvDecoder\NvDecoder.cpp">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NvCodec">
+      <UniqueIdentifier>{06df6632-02cc-42f7-b269-8729c8d65016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NvCodec\NvDecoder">
+      <UniqueIdentifier>{6c0ab9b8-5555-4c7d-b4c1-a46477448cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{bf9a4383-e579-4e3f-810b-ac723ede9771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\NvCodec\NvDecoder\cuviddec.h">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvDecoder\nvcuvid.h">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvDecoder\NvDecoder.h">
+      <Filter>NvCodec\NvDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\FFmpegDemuxer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\NvCodecUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\Utils\ColorSpace.cu">
+      <Filter>Utils</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

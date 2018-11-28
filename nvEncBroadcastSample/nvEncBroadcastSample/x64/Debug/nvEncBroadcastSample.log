@@ -1,0 +1,34 @@
+﻿  nvEncBroadcastObject.cpp
+  nvEncBroadcastInterfaceImplD3D9.cpp
+  nvEncBroadcastInterfaceImplD3D11.cpp
+  nvEncBroadcastInterfaceImpl.cpp
+  nvEncBroadcastBitstreamBuffer.cpp
+  NvEncBroadcastApiMain.cpp
+  NvEncoderD3D9.cpp
+  NvEncoderD3D11.cpp
+  NvEncoder.cpp
+  nvEncBroadcastUtils.cpp
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\nvenc\common\src\nvencbroadcastutils.cpp(289): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\nvenc\common\src\nvencbroadcastutils.cpp(315): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+  main.cpp
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\common\inc\nvencapp.h(234): warning C4996: 'GetVersionExW': was declared deprecated
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(442): note: see declaration of 'GetVersionExW'
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\nvencapp\main.cpp(66): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(920): note: see declaration of 'mbstowcs'
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\nvencapp\main.cpp(81): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(920): note: see declaration of 'mbstowcs'
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\nvencapp\main.cpp(92): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\nvencapp\main.cpp(104): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  nvEncDxInteropFactory.cpp
+  nvEncDx9App.cpp
+  nvEncDx11App.cpp
+c:\users\rarzumanyan\downloads\nvencbroadcastsample\common\src\nvencdx11app.cpp(82): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1008): note: see declaration of 'wcstombs'
+  Generating Code...
+     Creating library C:\Users\rarzumanyan\Downloads\nvEncBroadcastSample\x64\Debug\nvEncBroadcastSample.lib and object C:\Users\rarzumanyan\Downloads\nvEncBroadcastSample\x64\Debug\nvEncBroadcastSample.exp
+  nvEncBroadcastSample.vcxproj -> C:\Users\rarzumanyan\Downloads\nvEncBroadcastSample\x64\Debug\nvEncBroadcastSample.exe
+  nvEncBroadcastSample.vcxproj -> C:\Users\rarzumanyan\Downloads\nvEncBroadcastSample\x64\Debug\nvEncBroadcastSample.pdb (Full PDB)

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\nvEnc">
+      <UniqueIdentifier>{fdb9586c-1bf8-481d-8945-6a3a7d30b447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{b7b13dd8-348c-4d88-945c-114dc023b71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nvEnc">
+      <UniqueIdentifier>{bdc151a5-8755-4557-a2e6-7fcae65daf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{dabfd86b-9c82-40f8-9d19-2f4d3c5d4522}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nvEncApp\main.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="common\src\nvEncDx9App.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="common\src\nvEncDx11App.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="common\src\nvEncDxInteropFactory.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvEncCore\NvEncBroadcastApiMain.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvEncCore\nvEncBroadcastBitstreamBuffer.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvEncCore\nvEncBroadcastInterfaceImpl.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvEncCore\nvEncBroadcastInterfaceImplD3D9.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvEncCore\nvEncBroadcastInterfaceImplD3D11.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvEncCore\nvEncBroadcastObject.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\common\src\nvEncBroadcastUtils.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvCodec\nvEncoder\NvEncoder.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvCodec\nvEncoder\NvEncoderD3D9.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+    <ClCompile Include="nvEnc\nvCodec\nvEncoder\NvEncoderD3D11.cpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastInterfaceImpl.hpp">
+      <Filter>Source Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="common\inc\nvEncApp.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="common\inc\nvEncAppUtils.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="common\inc\nvEncDx9App.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="common\inc\nvEncDx11App.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\common\inc\allocator.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\api\nvEncBroadcastBaseApi.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastBitstreamBuffer.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastBitstreamBufferInst.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\api\nvEncBroadcastEncodeApi.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastInterface.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastInterfaceImplD3D9.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastInterfaceImplD3D11.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvEncCore\NvEncBroadcastObject.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\api\nvEncBroadcastOsDefines.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\common\inc\nvEncBroadcastUtils.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvCodec\nvEncoder\nvEncodeAPI.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvCodec\nvEncoder\NvEncoder.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvCodec\nvEncoder\NvEncoderD3D9.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\nvCodec\nvEncoder\NvEncoderD3D11.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+    <ClInclude Include="nvEnc\common\inc\ScopeGuard.h">
+      <Filter>Header Files\nvEnc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

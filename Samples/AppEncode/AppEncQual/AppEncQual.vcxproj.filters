@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\NvCodec\NvDecoder\NvDecoder.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoder.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="PSNR.h" />
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoderCuda.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\nvEncodeAPI.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\NvCodecUtils.h" />
+    <ClInclude Include="..\..\Utils\NvEncoderCLIOptions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\NvCodec\NvDecoder\NvDecoder.cpp">
+      <Filter>NvCodec</Filter>
+    </ClCompile>
+    <ClCompile Include="AppEncQual.cpp" />
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoder.cpp">
+      <Filter>NvCodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoderCuda.cpp">
+      <Filter>NvCodec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NvCodec">
+      <UniqueIdentifier>{5bca3ef5-ec7d-44f0-abd2-4455f2b80a7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

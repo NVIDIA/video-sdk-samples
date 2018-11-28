@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppEncME.cpp" />
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoder.cpp">
+      <Filter>NvCodec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoderCuda.cpp">
+      <Filter>NvCodec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NvCodec">
+      <UniqueIdentifier>{7d2aea5f-7cb3-4091-8ca7-f916d83fd855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoder.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\nvEncodeAPI.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoderCuda.h">
+      <Filter>NvCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\NvCodecUtils.h" />
+    <ClInclude Include="..\..\Utils\NvEncoderCLIOptions.h" />
+  </ItemGroup>
+</Project>
