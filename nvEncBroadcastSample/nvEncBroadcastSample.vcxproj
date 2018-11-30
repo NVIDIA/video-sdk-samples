@@ -181,7 +181,6 @@
     <ClInclude Include="common\inc\nvEncAppUtils.h" />
     <ClInclude Include="common\inc\nvEncDx11App.h" />
     <ClInclude Include="common\inc\nvEncDx9App.h" />
-    <ClInclude Include="nvEnc\api\nvEncBroadcastBaseApi.h" />
     <ClInclude Include="nvEnc\api\nvEncBroadcastEncodeApi.h" />
     <ClInclude Include="nvEnc\api\nvEncBroadcastOsDefines.h" />
     <ClInclude Include="nvEnc\common\inc\allocator.h" />
