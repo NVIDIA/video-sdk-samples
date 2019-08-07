@@ -378,7 +378,7 @@ int Grab60FPS(int nFrames)
             if (FAILED(hr))
             {
                 /// Re-try with a new DDA object
-                printf("Captrue failed with error 0x%08x. Re-create DDA and try again.\n", hr);
+                printf("Capture failed with error 0x%08x. Re-create DDA and try again.\n", hr);
                 Demo.Cleanup();
                 hr = Demo.Init();
                 if (FAILED(hr))
