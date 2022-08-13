@@ -26,7 +26,7 @@ static __global__ void Resize(cudaTextureObject_t texY, cudaTextureObject_t texU
 
     int x = ix * 2, y = iy * 2;
     typedef decltype(YuvUnitx2::x) YuvUnit;
-    const int MAX = 1 << (sizeof(YuvUnit) * 8);
+    const int MAX = (1 << (sizeof(YuvUnit) * 8)) - 1;
     *(YuvUnitx2 *)(pDst + y * nPitch + x * sizeof(YuvUnit)) = YuvUnitx2 {
         (YuvUnit)(tex2D<float>(texY, x / fxScale, y / fyScale) * MAX),
         (YuvUnit)(tex2D<float>(texY, (x + 1) / fxScale, y / fyScale) * MAX)
